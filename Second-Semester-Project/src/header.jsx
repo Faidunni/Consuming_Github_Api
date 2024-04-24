@@ -1,30 +1,23 @@
 import { Link } from "react-router-dom";
-import SearchBar from "./searchbar";
+import Search from "./search";
 // import "../src/";
 const Header = () => {
   return (
     <div className="header">
       <h2>Fai Github</h2>
-      <SearchBar />
-      {/* <div className="search">
-        <input
-          type="text"
-          name="search"
-          id=""
-          placeholder="Search Repo"
-          className="search-field"
-        />
-      </div> */}
+
+      <Search />
+
       <ul className="header-menu">
         <li>
           <Link to="/" className="list">
-            Overview
+            Home
           </Link>
         </li>
         <li>
           <Link to="/repos" className="list">
             {" "}
-            Repositories
+            Repo
           </Link>
         </li>
         <li>
