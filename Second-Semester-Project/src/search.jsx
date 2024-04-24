@@ -7,7 +7,7 @@ function Search() {
     <div className="searchbar">
       <div className="search-bar-container">
         <SearchBar setResults={setResults} />
-        <div>SearchResults</div>
+        {/* <div>SearchResults</div> */}
       </div>
     </div>
   );
